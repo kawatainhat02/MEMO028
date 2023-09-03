@@ -1,0 +1,9 @@
+module Hello where
+
+greeting :: String -> String 
+greeting name = "Helllo, " ++ name
+
+main :: [String] -> IO ()
+main args = do 
+putStrLn $ greeting "World"
+
